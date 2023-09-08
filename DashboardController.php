@@ -6,4 +6,6 @@
         }
     }
     
+    $object = new DashboardController;
+    echo $object->sayHello();
 ?>
